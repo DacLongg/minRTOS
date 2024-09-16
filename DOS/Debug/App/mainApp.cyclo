@@ -1,0 +1,6 @@
+../App/mainApp.c:22:6:taskFunction1	2
+../App/mainApp.c:47:6:taskFunction2	2
+../App/mainApp.c:72:6:taskFunction3	2
+../App/mainApp.c:93:6:taskFunction4	2
+../App/mainApp.c:109:6:taskFunction5	2
+../App/mainApp.c:128:6:mainApp	1

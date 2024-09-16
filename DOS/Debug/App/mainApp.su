@@ -1,0 +1,6 @@
+../App/mainApp.c:22:6:taskFunction1	8	static
+../App/mainApp.c:47:6:taskFunction2	8	static
+../App/mainApp.c:72:6:taskFunction3	8	static
+../App/mainApp.c:93:6:taskFunction4	8	static
+../App/mainApp.c:109:6:taskFunction5	8	static
+../App/mainApp.c:128:6:mainApp	8	static

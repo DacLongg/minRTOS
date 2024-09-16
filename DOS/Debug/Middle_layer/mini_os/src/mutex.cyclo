@@ -1,0 +1,3 @@
+../Middle_layer/mini_os/src/mutex.c:3:10:Mutex_create	1
+../Middle_layer/mini_os/src/mutex.c:11:6:Mutex_Take	2
+../Middle_layer/mini_os/src/mutex.c:29:6:Mutex_Give	3

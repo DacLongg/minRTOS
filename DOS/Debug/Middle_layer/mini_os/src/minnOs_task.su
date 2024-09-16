@@ -1,0 +1,17 @@
+../Middle_layer/mini_os/src/minnOs_task.c:15:6:switchToPSP	4	static,ignoring_inline_asm
+../Middle_layer/mini_os/src/minnOs_task.c:24:6:Init_os	8	static
+../Middle_layer/mini_os/src/minnOs_task.c:38:13:task_create	32	static
+../Middle_layer/mini_os/src/minnOs_task.c:80:6:saveContext	4	static,ignoring_inline_asm
+../Middle_layer/mini_os/src/minnOs_task.c:87:38:ContextSwitch	16	static,ignoring_inline_asm
+../Middle_layer/mini_os/src/minnOs_task.c:98:6:switch_task	4	static
+../Middle_layer/mini_os/src/minnOs_task.c:104:6:Task_handle	16	static
+../Middle_layer/mini_os/src/minnOs_task.c:166:13:DOS_GetTaskRunnung	4	static
+../Middle_layer/mini_os/src/minnOs_task.c:172:6:DOS_start_kernel	4	static
+../Middle_layer/mini_os/src/minnOs_task.c:176:6:DOS_stop_kernel	4	static
+../Middle_layer/mini_os/src/minnOs_task.c:179:6:DOS_TaskSuspend	16	static
+../Middle_layer/mini_os/src/minnOs_task.c:209:6:DOS_TaskResume	16	static
+../Middle_layer/mini_os/src/minnOs_task.c:223:6:DOS_StoreTask	24	static
+../Middle_layer/mini_os/src/minnOs_task.c:257:6:task_sleep	16	static
+../Middle_layer/mini_os/src/minnOs_task.c:275:6:MiniOS_TaskIdle	4	static
+../Middle_layer/mini_os/src/minnOs_task.c:283:6:SysTick_Handler	8	static
+../Middle_layer/mini_os/src/minnOs_task.c:298:6:PendSV_Handler	8	static
