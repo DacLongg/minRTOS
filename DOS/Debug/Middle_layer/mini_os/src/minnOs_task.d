@@ -1,7 +1,7 @@
 Middle_layer/mini_os/src/minnOs_task.o: \
  ../Middle_layer/mini_os/src/minnOs_task.c \
- D:/App/stm32/uart_dma/Middle_layer/mini_os/Irc/miniOs_task.h \
- D:/App/stm32/uart_dma/Middle_layer/mini_os/List/list.h \
+ D:/GitWork/DOS/DOS/Middle_layer/mini_os/Irc/miniOs_task.h \
+ D:/GitWork/DOS/DOS/Middle_layer/mini_os/List/list.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
  ../Core/Inc/stm32f1xx_hal_conf.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h \
@@ -24,8 +24,8 @@ Middle_layer/mini_os/src/minnOs_task.o: \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
-D:/App/stm32/uart_dma/Middle_layer/mini_os/Irc/miniOs_task.h:
-D:/App/stm32/uart_dma/Middle_layer/mini_os/List/list.h:
+D:/GitWork/DOS/DOS/Middle_layer/mini_os/Irc/miniOs_task.h:
+D:/GitWork/DOS/DOS/Middle_layer/mini_os/List/list.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:
 ../Core/Inc/stm32f1xx_hal_conf.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h:

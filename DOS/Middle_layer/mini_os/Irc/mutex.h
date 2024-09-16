@@ -9,7 +9,7 @@ extern "C" {
 #include "stdlib.h"
 #include "string.h"
 #include "miniOs_task.h"
-#include "semaphore.h"s
+#include "semaphore.h"
 
 
 typedef struct

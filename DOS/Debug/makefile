@@ -37,34 +37,34 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := uart_dma
+BUILD_ARTIFACT_NAME := dev_Dos
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-uart_dma.elf \
+dev_Dos.elf \
 
 MAP_FILES += \
-uart_dma.map \
+dev_Dos.map \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-uart_dma.list \
+dev_Dos.list \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: uart_dma.elf secondary-outputs
+main-build: dev_Dos.elf secondary-outputs
 
 # Tool invocations
-uart_dma.elf uart_dma.map: $(OBJS) $(USER_OBJS) D:\App\stm32\uart_dma\STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "uart_dma.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"D:\App\stm32\uart_dma\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="uart_dma.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+dev_Dos.elf dev_Dos.map: $(OBJS) $(USER_OBJS) D:\GitWork\DOS\DOS\STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "dev_Dos.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"D:\GitWork\DOS\DOS\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dev_Dos.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -73,14 +73,14 @@ default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-uart_dma.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "uart_dma.list"
+dev_Dos.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "dev_Dos.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) default.size.stdout uart_dma.elf uart_dma.list uart_dma.map
+	-$(RM) default.size.stdout dev_Dos.elf dev_Dos.list dev_Dos.map
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)
