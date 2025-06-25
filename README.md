@@ -1,3 +1,3 @@
 # DOS
-mini rtos i develop myself
+mini rtos i deverlop myself
 
