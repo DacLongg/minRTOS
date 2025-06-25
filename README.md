@@ -1,3 +1,3 @@
 # DOS
-mini rtos i deverlop myself
+Self-developed lightweight RTOS tailored for embedded applications.
 
